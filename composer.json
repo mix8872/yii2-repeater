@@ -1,12 +1,16 @@
 {
-    "name": "prokhonenkov/yii2-repeater",
-    "description": "The html repeater",
+    "name": "mix8872/yii2-repeater",
+    "description": "The html repeater (forked)",
     "type": "yii2-extension",
     "license": "MIT",
     "authors": [
       {
         "name": "Vitaliy Prokhonenkov",
         "email": "prokhonenkov@gmail.com"
+      },
+	  {
+        "name": "mix8872",
+        "email": "mix8872@gmail.com"
       }
     ],
     "keywords": [
