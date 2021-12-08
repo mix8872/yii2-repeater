@@ -6,15 +6,15 @@
  * Time: 17:19
  */
 
-namespace prokhonenkov\repeater\assets;
+namespace mix8872\repeater\assets;
 
 /**
  * Class AssetBundle
- * @package prokhonenkov\repeater\assets
+ * @package mix8872\repeater\assets
  */
 class AssetBundle extends \yii\web\AssetBundle
 {
-	public $sourcePath = '@vendor/prokhonenkov/yii2-repeater/assets';
+	public $sourcePath = '@vendor/mix8872/yii2-repeater/assets';
 
 	public $css = [
 		'css/repeater.css'

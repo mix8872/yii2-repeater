@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require prokhonenkov/yii2-repeater
+php composer.phar require mix8872/yii2-repeater
 ```
 
 or add
 
 ```
-"prokhonenkov/yii2-repeater": "*"
+"mix8872/yii2-repeater": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -33,7 +33,7 @@ return [
     // ... your config
     'modules' => [
         'repeater'=> [
-            'class' => \prokhonenkov\repeater\Repeater::class
+            'class' => \mix8872\repeater\Repeater::class
         ],
     ],
     'bootstrap' => [        
@@ -50,7 +50,7 @@ Usage
 Example view:
 
 ```php
-<?= \prokhonenkov\repeater\widgets\RepeaterWidget::widget([
+<?= \mix8872\repeater\widgets\RepeaterWidget::widget([
     'className' => \app\models\TestRepeater::class,
     'modelView' => '@app/views/site/repeater',
     'models' => [ //list of your models
@@ -117,7 +117,7 @@ Example view of model:
         </tr>
         <tr>
             <td>
-                <?= \prokhonenkov\repeater\widgets\RepeaterWidget::widget([
+                <?= \mix8872\repeater\widgets\RepeaterWidget::widget([
                     'className' => \app\models\TestRepeaterTwo::class,
                     'modelView' => '@app/views/site/repeaterTwo',
                     'models' => [

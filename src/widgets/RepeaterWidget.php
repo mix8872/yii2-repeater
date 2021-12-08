@@ -5,10 +5,10 @@
  * Time 19:10
  */
 
-namespace prokhonenkov\repeater\widgets;
+namespace mix8872\repeater\widgets;
 
-use prokhonenkov\repeater\assets\AssetBundle;
-use prokhonenkov\repeater\Repeater;
+use mix8872\repeater\assets\AssetBundle;
+use mix8872\repeater\Repeater;
 use yii\base\Widget;
 use yii\helpers\Json;
 use yii\helpers\Url;
@@ -16,7 +16,7 @@ use yii\widgets\ActiveForm;
 
 /**
  * Class RepeaterWidget
- * @package prokhonenkov\repeater\widgets
+ * @package mix8872\repeater\widgets
  */
 class RepeaterWidget extends Widget
 {

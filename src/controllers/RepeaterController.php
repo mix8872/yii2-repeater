@@ -5,14 +5,14 @@
  * Time 9:35
  */
 
-namespace prokhonenkov\repeater\controllers;
+namespace mix8872\repeater\controllers;
 
 
 use yii\web\Controller;
 
 /**
  * Class RepeaterController
- * @package prokhonenkov\repeater\controllers
+ * @package mix8872\repeater\controllers
  */
 class RepeaterController extends Controller
 {

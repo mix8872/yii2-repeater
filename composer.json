@@ -26,7 +26,7 @@
     },
     "autoload": {
       "psr-4": {
-        "prokhonenkov\\repeater\\": "src"
+        "mix8872\\repeater\\": "src"
       }
     }
 }

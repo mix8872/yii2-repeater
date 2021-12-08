@@ -1,15 +1,15 @@
 <?php
 
-namespace prokhonenkov\repeater;
+namespace mix8872\repeater;
 
-use prokhonenkov\bannerssystem\exceptions\InvalidConfigException;
+use mix8872\bannerssystem\exceptions\InvalidConfigException;
 use yii\helpers\VarDumper;
 use yii\web\Controller;
 use yii\web\ForbiddenHttpException;
 
 /**
  * Class Repeater
- * @package prokhonenkov\repeater
+ * @package mix8872\repeater
  */
 class Repeater extends \yii\base\Module
 {
@@ -20,7 +20,7 @@ class Repeater extends \yii\base\Module
 	/**
 	 * @var string
 	 */
-	public $repeaterItemView = '@vendor/prokhonenkov/yii2-repeater/src/widgets/views/_item';
+	public $repeaterItemView = '@vendor/mix8872/yii2-repeater/src/widgets/views/_item';
 
     public function init()
     {
